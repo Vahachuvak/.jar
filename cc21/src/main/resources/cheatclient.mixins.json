@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cheatclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityMixin",
+    "GuiMixin",
+    "MinecraftAccessor",
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatclient",
+  "version": "${version}",
+  "name": "CheatClient",
+  "description": "Flight, KillAura, AutoClicker, Speed, ESP + ClickGUI (Right Shift).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.cheatclient.CheatClient"]
+  },
+  "mixins": ["cheatclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
